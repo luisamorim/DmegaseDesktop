@@ -11,6 +11,8 @@
 		3ABE9814209DED6F005ADD81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE9813209DED6F005ADD81 /* ViewController.swift */; };
 		3ABE9816209DED6F005ADD81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE9815209DED6F005ADD81 /* Assets.xcassets */; };
 		3ABE9819209DED6F005ADD81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE9817209DED6F005ADD81 /* Main.storyboard */; };
+		3ABE9824209DEEA7005ADD81 /* D_megase in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE9823209DEEA7005ADD81 /* D_megase */; };
+		3ABE9825209DEEDC005ADD81 /* D_megase in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE9823209DEEA7005ADD81 /* D_megase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,7 @@
 		3ABE9818209DED6F005ADD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABE981A209DED6F005ADD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABE981B209DED6F005ADD81 /* DMegase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DMegase.entitlements; sourceTree = "<group>"; };
+		3ABE9823209DEEA7005ADD81 /* D_megase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = D_megase; path = ../../D_megase; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		3ABE9810209DED6F005ADD81 /* DMegase */ = {
 			isa = PBXGroup;
 			children = (
+				3ABE9823209DEEA7005ADD81 /* D_megase */,
 				3ABE9811209DED6F005ADD81 /* AppDelegate.swift */,
 				3ABE9813209DED6F005ADD81 /* ViewController.swift */,
 				3ABE9815209DED6F005ADD81 /* Assets.xcassets */,
@@ -123,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABE9816209DED6F005ADD81 /* Assets.xcassets in Resources */,
+				3ABE9824209DEEA7005ADD81 /* D_megase in Resources */,
 				3ABE9819209DED6F005ADD81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +141,7 @@
 			files = (
 				3ABE9814209DED6F005ADD81 /* ViewController.swift in Sources */,
 				3ABE9812209DED6F005ADD81 /* AppDelegate.swift in Sources */,
+				3ABE9825209DEEDC005ADD81 /* D_megase in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
